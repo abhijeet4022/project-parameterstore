@@ -1,2 +1,2 @@
 # project-parameterstore
-Repository for SSM Parameter Store used to store the secrets and credential for the project.
+Repository for SSM Parameter Store used to store the secrets and credentials for the project.
