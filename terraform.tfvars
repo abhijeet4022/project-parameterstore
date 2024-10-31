@@ -12,6 +12,10 @@ parameters = {
   "cart.dev.CATALOGUE_HOST" = { type = "String", value = "catalogue-dev.learntechnology.cloud" }
   "cart.dev.CATALOGUE_PORT" = { type = "String", value = "80" }
 
+  #Shipping
+  "shipping.dev.CART_ENDPOINT" = { type = "String", value = "cart-dev.learntechnology.cloud" }
+  "shipping.dev.DB_HOST"       = { type = "String", value = "dev-aurora-mysql-rds-cluster.cluster-c1qu64uoqwup.us-east-1.rds.amazonaws.com" }
+
 
   "docdb.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
   "rds.dev.master_password"   = { type = "SecureString", value = "roboshop1234" }
