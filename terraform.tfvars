@@ -10,7 +10,7 @@ parameters = {
   # Cart Component
   "cart.dev.REDIS_HOST"     = { type = "String", value = "dev-redis-elasticache-cluster.l3cv9f.0001.use1.cache.amazonaws.com" }
   "cart.dev.CATALOGUE_HOST" = { type = "String", value = "catalogue-dev.learntechnology.cloud" }
-  "cart.dev.CATALOGUE_PORT" = { type = "String", value = "8080" }
+  "cart.dev.CATALOGUE_PORT" = { type = "String", value = "80" }
 
 
   "docdb.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
