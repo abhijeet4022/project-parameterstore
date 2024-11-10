@@ -28,5 +28,10 @@ parameters = {
 
   "docdb.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
   "rds.dev.master_password"   = { type = "SecureString", value = "roboshop1234" }
+
+  # Logstash
+  "elasticsearch.username" = { type = "String", value = "elastic" }
+  "elasticsearch.password" = { type = "SecureString", value = "cwW5lfWCz1mAX0zhmUCz" }
+
 }
 
