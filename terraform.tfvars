@@ -62,5 +62,11 @@ parameters = {
   "shipping.dev.appVersion"  = { type = "String", value = "1.0.0" }
   "payment.dev.appVersion"   = { type = "String", value = "1.0.0" }
 
+
+  # Catalogue Pod
+  "catalogue.dev.MONGO_URL" = { type = "SecureString", value = "mongodb://docdbadmin:roboshop1234@dev-docdb-cluster.cluster-c1qu64uoqwup.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
+
+  "catalogue.dev.DOCUMENTDB" = { type = "String", value = "true" }
+
 }
 
