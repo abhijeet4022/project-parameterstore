@@ -71,5 +71,8 @@ parameters = {
   "user.dev.MONGO_URL" = { type = "SecureString", value = "mongodb://docdbadmin:roboshop1234@dev-docdb-cluster.cluster-c1qu64uoqwup.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
   "user.dev.DOCUMENTDB" = { type = "String", value = "true" }
 
+  # Cart Pod
+  "cart.dev.CATALOGUE_POD" = { type = "String", value = "catalogue" }
+
 }
 
