@@ -74,5 +74,8 @@ parameters = {
   # Cart Pod
   "cart.dev.CATALOGUE_POD" = { type = "String", value = "catalogue" }
 
+  # Shipping Pod
+  "shipping.dev.CART_POD_ENDPOINT" = { type = "String", value = "cart:80" }
+
 }
 
