@@ -77,5 +77,14 @@ parameters = {
   # Shipping Pod
   "shipping.dev.CART_POD_ENDPOINT" = { type = "String", value = "cart:80" }
 
+  # Payment Pod
+  "payment.dev.CART_POD" = { type = "String", value = "cart-dev.learntechnology.cloud" }
+  "payment.dev.CART_PORT" = { type = "String", value = "80" }
+  "payment.dev.USER_POD" = { type = "String", value = "user-dev.learntechnology.cloud" }
+  "payment.dev.USER_PORT" = { type = "String", value = "80" }
+  "payment.dev.AMQP_HOST" = { type = "String", value = "rabbitmq-dev.learntechnology.cloud" }
+  "rabbitmq.dev.AMQP_USER" = { type = "String", value = "roboshop" }
+  "rabbitmq.dev.AMQP_PASS" = { type = "SecureString", value = "roboshop123" }
+
 }
 
