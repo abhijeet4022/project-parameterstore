@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-	bucket = "statefile.learntechnology.cloud"
+	bucket = "infrastatefile.learntechnology.cloud"
 	key    = "parameter_store/terraform.tfstate"
 	region = "us-east-1"
   }
